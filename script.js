@@ -7,7 +7,7 @@ $(document).ready(() => {
         let myKey = 'f7bcc7d88d2c43b2be34a8fc9f0d76ba';
         
             $.ajax({
-                url: `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${myKey}`,
+                url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${myKey}`,
                 type: 'GET',
                 dataType: 'jsonp',
                 success:function(data){
